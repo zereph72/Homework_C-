@@ -1,5 +1,5 @@
 ﻿
-/*Console.WriteLine("Hello, world! ");*/
+
 
 
 /* ax^2+bx+c =0;
@@ -93,39 +93,6 @@ else
     Console.WriteLine("немає розв'язків");
     
 }
-
-/*----------------Умови для дискримінанта---------------*/
-/* 
-        int D = (int)Math.Pow(b, 2) - 4 * a * c;
-
-if (D < 0) 
-{ Console.WriteLine("Не має коренів");
-    Console.WriteLine("D<0");
-    return;
-}
-else if(D>0)
-{
-    Console.WriteLine("D>0");
-
-     double x1 = (-b + Math.Sqrt(D)) / (2 * a);
-    Console.WriteLine($"x1: {x1}:0.0");
-
-
-    double x2 = (-b - Math.Sqrt(D)) / (2 * a);
-    Console.WriteLine($"x2: {x2}:0.0");
-    Console.WriteLine(x1 + " " + x2);
-    return;
-}
-else
-{
-    Console.WriteLine("Має 1 корінь:");
-
-    double x1 = -b/(2 * a);
-    Console.WriteLine($"x1: {x1}");
-    return;
-}
-*/
-
 
 
 
